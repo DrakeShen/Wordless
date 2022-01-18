@@ -34,7 +34,7 @@
 - Work Area: Update Work Area - Figure Settings - Sort by File
 
 ### ❌ Removals
-- Menu: Remove Preferences - Settings - Word Detokenization
+- Settings: Remove Settings - Word Detokenization
 - Utils: Remove lemmalist-greek's Greek (Ancient) lemma list
 - Utils: Remove syntok's sentence segmenter and word tokenizer
 
@@ -52,10 +52,10 @@
 
 ## [2.1.0](https://github.com/BLKSerene/Wordless/releases/tag/2.1.0) - 10/14/2021
 ### 🎉 New Features
-- Menu: Add Preferences - Settings - Files - Miscellaneous - Read files in chunks of lines
-- Menu: Add Preferences - Settings - Files - Tags - Header Tag Settings / Body Tag Settings / XML Tag Settings - Insert/Clear
-- Menu: Add Preferences - Settings - Stop Word Lists - Preview - Insert
-- Menu: Add Preferences - Settings - Syllable Tokenization
+- Settings: Add Settings - Files - Miscellaneous - Read files in chunks of lines
+- Settings: Add Settings - Files - Tags - Header Tag Settings / Body Tag Settings / XML Tag Settings - Insert/Clear
+- Settings: Add Settings - Stop Word Lists - Preview - Insert
+- Settings: Add Settings - Syllable Tokenization
 - Utils: Add Pyphen's syllable tokenizers
 - Utils: Add PyThaiNLP's Thai syllable tokenizer
 - Utils: Add spaCy's Azerbaijani word tokenizer and stop word list
@@ -69,8 +69,8 @@
 
 ### 📌 Bugfixes
 - File Area: Fix Auto-detection Settings
-- Menu: Fix Preferences - Settings - POS Tagging - Tagsets - Mapping Settings - Reset All
-- Menu: Fix Preferences - Settings - Stop Word Lists - Stop Word Lists Settings - Custom List
+- Settings: Fix Settings - POS Tagging - Tagsets - Mapping Settings - Reset All
+- Settings: Fix Settings - Stop Word Lists - Stop Word Lists Settings - Custom List
 
 ### ❌ Removals
 - File Area: Remove support for .tmx files
@@ -96,7 +96,7 @@
 ## [2.0.0](https://github.com/BLKSerene/Wordless/releases/tag/2.0.0) - 07/21/2021
 
 ### 🎉 New Features
-- Menu: Add Preferences - Settings - Files - Default Settings - Tokenized/Tagged
+- Settings: Add Settings - Files - Default Settings - Tokenized/Tagged
 - Utils: Add CLTK's Akkadian, Arabic (Standard), Coptic, English (Middle), English (Old), French (Old), German (Middle High), Greek (Ancient), Hindi, Latin, Marathi (Old), Norse (Old), Punjabi, and Sanskrit stop word lists
 - Utils: Add PyThaiNLP's NERCut
 - Utils: Add PyThaiNLP's perceptron tagger (LST20)
@@ -165,7 +165,7 @@
 - Work Area: Overview/Concordancer - Rename “Clause” to “Sentence Segment”
 
 ### 📌 Bugfixes
-- Menu: Fix Preferences - Settings - Word Tokenization - Underthesea’s Vietnamese Word Tokenizer
+- Settings: Fix Settings - Word Tokenization - Preview - Select language - Vietnamese
 - Utils: Fix NLTK's Penn Treebank Detokenizer
 - Work Area: Fix Concordancer - Generate Figure
 
@@ -193,8 +193,8 @@
 ## [1.4.0](https://github.com/BLKSerene/Wordless/releases/tag/1.4.0) - 12/11/2020
 
 ### 🎉 New Features
-- Menu: Add Preferences - Settings - File - Tags - Header Tag Settings
-- Menu: Add Preferences - Settings - Data - Continue numbering after ties
+- Settings: Add Settings - File - Tags - Header Tag Settings
+- Settings: Add Settings - Data - Continue numbering after ties
 - Utils: Add botok's Tibetan sentence tokenizer
 - Utils: Add NLTK's NLTK tokenizer
 - Utils: Add PyThaiNLP's maximum matching + TCC (safe mode)
@@ -210,7 +210,7 @@
 - File Area: Update File Table - Tokenized/Tagged
 - File Area: Update support for XML files
 - Menu: Disable editing of POS tag mappings for spaCy's POS taggers
-- Menu: Update Preferences - Settings - Files - Tags
+- Settings: Update Settings - Files - Tags
 - Utils: Update botok's Tibetan word tokenizer, POS tagger, and lemmatizer
 - Utils: Update Chinese (Traditional) stop word lists
 - Utils: Update NLTK's word tokenizers
@@ -222,8 +222,8 @@
 - Utils: Update Stopwords ISO's Greek and Norwegian stop word lists
 
 ### 📌 Bugfixes
-- Menu: Fix Preferences - Settings - POS Tagging
-- Overview: Fix batch processing of a large number of files
+- Settings: Fix Settings - POS Tagging
+- Work Area: Fix batch processing of a large number of files
 
 ### ❌ Removals
 - Utils: Remove grk-stoplist's Greek (Ancient) stop word list
@@ -282,7 +282,7 @@
 
 ### 📌 Bugfixes
 - File Area / Utils: Fix encoding detection
-- Menu: Fix Preferences - Settings - POS Tagging - Tagsets - Preview Settings - POS Tagger
+- Settings: Fix Settings - POS Tagging - Tagsets - Preview Settings - POS Tagger
 - Utils: Fix lemmatization of empty tokens
 - Work Area: Fix file checking
 - Work Area: Fix Overview - Paragraph/Sentence Length
@@ -312,7 +312,7 @@
 
 ### 🎉 New Features
 - File Area: Add support for .xml files
-- Menu: Add Preferences - Settings - Figures - Line Chart / Word Cloud / Network Graph
+- Settings: Add Settings - Figures - Line Chart / Word Cloud / Network Graph
 - Utils: Add extra-stopwords's stop word lists
 - Utils: Add NLTK's Punkt Sentence Tokenizer for Russian
 - Utils: Add NLTK's Slovenian and Tajik stop word lists
@@ -331,7 +331,7 @@
 - Utils: Update Sacremoses's tokenizers and detokenizer
 
 ### 📌 Bugfixes
-- Menu: Fix Preferences - Settings - Stop Words - Preview - Count of Stop Words
+- Settings: Fix Settings - Stop Words - Preview - Count of Stop Words
 - Utils: Fix NLTK's word tokenizers
 - Work Area: Fix Collocation and Colligation
 - Work Area: Fix Concordancer - Export Selected/All
@@ -362,7 +362,7 @@
 ## [1.1.0](https://github.com/BLKSerene/Wordless/releases/tag/1.1.0) - 03/31/2019
 
 ### 🎉 New Features
-- Menu: Add Preferences - Settings - General - Font Settings
+- Settings: Add Settings - General - Font Settings
 
 ### ✨ Improvements
 - Main Window: Disable mouse wheel for combo boxes and spin boxes when they are not focused
@@ -371,7 +371,7 @@
 
 ### 📌 Bugfixes
 - File Area: Fix Open Folder
-- Menu: Fix Preferences - Settings - Sentence Tokenization / Word Tokenization / Word Detokenization / POS Tagging / Lemmatization - Preview
+- Settings: Fix Settings - Sentence Tokenization / Word Tokenization / Word Detokenization / POS Tagging / Lemmatization - Preview
 - Startup: Fix checking for updates on startup
 - Utils: Fix spaCy's sentence tokenizers and word tokenizers
 - Utils: Fix Wordless's Chinese and Japanese character tokenizers
