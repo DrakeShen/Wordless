@@ -40,11 +40,13 @@
 - Menu: Remove File - Reload Selected/All
 - Settings: Remove Settings - Word Detokenization
 - Utils: Remove lemmalist-greek's Greek (Ancient) lemma list
+- Utils: Remove razdel's Russian sentenizer and word tokenizer
 - Utils: Remove syntok's sentence segmenter and word tokenizer
 
 ### ⏫ Dependency Changes
 - Dependencies: Add SudachiPy
 - Dependencies: Remove lemmalist-greek
+- Dependencies: Remove razdel
 - Dependencies: Remove syntok
 - Dependencies: Upgrade Charset Normalizer to 2.0.11
 - Dependencies: Upgrade Matplotlib to 3.5.1
